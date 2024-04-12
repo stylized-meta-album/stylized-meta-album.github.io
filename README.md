@@ -1,1 +1,3 @@
-# meta-album.github.io
+# Stylized Meta-Album
+
+stylized-meta-album.github.io
