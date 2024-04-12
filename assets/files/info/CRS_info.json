@@ -1,0 +1,65 @@
+{
+    "id" : "VCL.CRS",
+    "domain_id" : "VCL",
+    "domain_name" : "Vehicles",
+    "dataset_id" : "CRS",
+    "dataset_name" : "Cars",
+    "short_description" : "Dataset with images of different car models",
+    "long_description" : "The original Cars dataset (https://ai.stanford.edu/~jkrause/cars/car_dataset.html) was collected in 2013, and it contains more than 16 000 images from 196 classes of cars. Most images are on the road, but some have different backgrounds, and each image has only one car. Each class can have 48 to 136 images of variable resolutions. The preprocess version for this dataset was obtained by creating square images either duplicating the top and bottom-most 3 rows or the left and right most 3 columns based on the orientation of the original image. In this case, cropping was not applied to create the square images since following this technique results in losing too much information from the cars. Then, the square images were resized into 128x128 px using an anti-aliasing filter.",
+    "keywords" : "vehicles, cars",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "ImageNet License",
+    "license_url" : [
+        "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
+        "https://www.image-net.org/download.php"
+    ],
+    "license_details" : "",
+    "meta-album_license" : "ImageNet License",
+    "meta-album_license_url" : "https://www.image-net.org/download.php",
+    "source" : "Stanford Cars Dataset",
+    "source_url" : ["https://ai.stanford.edu/~jkrause/cars/car_dataset.html"],
+    "original_author": "Jonathan Krause, Michael Stark, Jia Deng, Li Fei-Fei",
+    "original_contact" : "jkrause@cs.stanford.edu",
+    "citation" : "CRS.bib",
+    "meta-album_author": "Philip Boser",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 196,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 7840
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 196,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 48, 
+        "median_images_per_category" : 84,
+        "maximum_images_per_category" : 136, 
+        "total_images": 16185
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44245,
+        "mini" : 44289,
+        "extended" : 44323
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 0
+}

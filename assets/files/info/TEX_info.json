@@ -1,0 +1,68 @@
+{
+    "id" : "MNF.TEX",
+    "domain_id" : "MNF",
+    "domain_name" : "Manufacturing",
+    "dataset_id" : "TEX",
+    "dataset_name" : "Textures",
+    "short_description" : "Textures dataset from KTH-TIPS, Kylberg and UIUC",
+    "long_description" : "The original Textures dataset is a combination of 4 texture datasets: KTH-TIPS and KTH-TIPS 2 (https://www.csc.kth.se/cvap/databases/kth-tips/index.html), Kylberg Textures Dataset (http://www.cb.uu.se/~gustaf/texture/) and UIUC Textures Dataset. The data in all four datasets is collected in laboratory conditions, i.e., images were captured in a controlled environment with configurable brightness, luminosity, scale and angle. The KTH-TIPS dataset was collected by Mario Fritz and KTH-TIPS 2 dataset was collected by P. Mallikarjuna and Alireza Tavakoli Targhi, created in 2004 and 2006 respectively. Both of these datasets were prepared under the supervision of Eric Hayman and Barbara Caputo. The data for Kylberg Textures Dataset and UIUC Textures Dataset data was collected by the original authors of these datasets in September 2010 and August 2005 respectively. The Meta-Album Textures dataset is a preprocessed version of the original dataset (combination of 4 datasets). All the images are preprocessed by first cropping into perfect squared images and then resized into 128x128 with an anti-aliasing filter.",
+    "keywords" : "textures, manufacturing",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC BY NC 4.0, public for research, cite paper to use dataset",
+    "license_url" : [
+        "https://creativecommons.org/licenses/by-nc/4.0/",
+        "https://kylberg.org/wp-content/uploads/2020/05/KylbergTextureDocumentation-1.0.pdf"
+    ],
+    "license_details" : "KTH-TIPS: Email confirmation, Kylberg: Public for research, UIUC: Email confirmation -- cite paper to use dataset",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "KTH-TIPS, Kylberg, UIUC",
+    "source_url" : [
+        "https://www.csc.kth.se/cvap/databases/kth-tips/index.html", 
+        "https://www.cb.uu.se/~gustaf/texture/"
+    ],
+    "original_author": "Eric Hayman, Barbara Caputo, Mario Fritz, P. Mallikarjuna, Alireza Tavakoli Targhi, Jean Ponce, Gustaf Kylberg, Svetlana Lazebnik, Cordelia Schmid",
+    "original_contact" : "KTH-TIPS: hayman@nada.kth.se, Kylberg: gustaf.kylberg@gmail.com, UIUC: Jean.Ponce@inria.fr",
+    "citation" : "TEX.bib",
+    "meta-album_author": "Ihsan Ullah",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 64,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 2560
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 64,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 40, 
+        "median_images_per_category" : 160,
+        "maximum_images_per_category" : 513, 
+        "total_images": 8675
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44244,
+        "mini" : 44288,
+        "extended" : 44322
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 0
+}

@@ -1,0 +1,62 @@
+{
+    "id" : "SM_AM.PLK",
+    "domain_id" : "SM_AM",
+    "domain_name" : "Small Animals",
+    "dataset_id" : "PLK",
+    "dataset_name" : "Plankton",
+    "short_description" : "Plankton dataset from WHOI",
+    "long_description" : "The Plankton dataset is created by researchers at the Woods Hole Oceanographic Institution (https://www.whoi.edu/). Imaging FlowCytobot (IFCB) was used for the data collection. The Complete process and mechanism are described in the paper [31]. Each image in the dataset contains one or multiple planktons. The images are captured in a controlled environment and have different orientations based on the flow of the fluid in which the images are captured and the size and shape of the planktons. The preprocessed plankton dataset is prepared from the original WHOI Plankton dataset. The preprocessing of the images is done by creating a background squared image by either duplicating the top and bottom-most 3 rows or the left and right most 3 columns based on the orientation of the original image to match the width or height of the image respectively. A Gaussian kernal of size 29x29 is applied to the background image to blur the image. Finally, the original plankton image is pasted on the background image at the center of the image. The squared background image with the original plankton image on top of it as one image is then resized into 128x128 with anti-aliasing.",
+    "keywords" : "plankton, ecology",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "MIT License",
+    "license_url" : ["https://github.com/hsosik/WHOI-Plankton/blob/master/LICENSE"],
+    "license_detaills" : "",
+    "meta-album_license" : "MIT License",
+    "meta-album_license_url" : "https://github.com/hsosik/WHOI-Plankton/blob/master/LICENSE",
+    "source" : "Woods Hole Oceanographic Institution",
+    "source_url" : ["https://github.com/hsosik/WHOI-Plankton"],
+    "original_author": "Heidi M. Sosik, Emily E. Peacock, Emily F. Brownlee, Eric Orenstein",
+    "original_contact" : "hsosik@whoi.edu",
+    "citation" : "PLK.bib",
+    "meta-album_author": "Ihsan Ullah",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 86,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 3440
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 102,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 2, 
+        "median_images_per_category" : 301,
+        "maximum_images_per_category" : 187384, 
+        "total_images": 473273
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44238,
+        "mini" : 44282,
+        "extended" : 44317
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 0
+}

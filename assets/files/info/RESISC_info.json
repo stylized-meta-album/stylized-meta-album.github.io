@@ -1,0 +1,62 @@
+{
+    "id" : "REM_SEN.RESISC",
+    "domain_id" : "REM_SEN",
+    "domain_name" : "Remote Sensing",
+    "dataset_id" : "RESISC",
+    "dataset_name" : "RESISC",
+    "short_description" : "Remote sensing dataset",
+    "long_description" : "RESISC45 dataset(https://gcheng-nwpu.github.io/) gathers 700 RGB images of size 256x256 px for each of 45 scene categories. The data authors strive to provide a challenging dataset by increasing both within-class diversity and between-class similarity, as well as integrating many image variations. Even though RESISC45 does not propose a label hierarchy, it can be created from other common aerial image label organization scheme. We have preprocessed RESISC for Meta-Album by resizing the dataset to 128x128 px.",
+    "keywords" : "remote sensing, satellite image, aerial image, land cover",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC-BY-NC 4.0",
+    "license_url" : ["https://creativecommons.org/licenses/by-nc/4.0/"],
+    "license_detaills" : "Email confirmation",
+    "meta-album_license" : "CC-BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "NWPU-RESISC45 Dataset",
+    "source_url" : ["https://gcheng-nwpu.github.io/"],
+    "original_author": "Gong Cheng, Junwei Han, and Xiaoqiang Lu",
+    "original_contact" : "chenggong1119@gmail.com",
+    "citation" : "RESISC.bib",
+    "meta-album_author": "Phan Anh VU",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 45,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1800
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 45,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 700, 
+        "median_images_per_category" : 700,
+        "maximum_images_per_category" : 700, 
+        "total_images": 31500
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44246,
+        "mini" : 44290,
+        "extended" : 44324
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 0
+}

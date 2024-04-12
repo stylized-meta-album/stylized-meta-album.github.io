@@ -1,0 +1,65 @@
+{
+    "id" : "PLT_DIS.MED_LF",
+    "domain_id" : "PLT_DIS",
+    "domain_name" : "Plant Diseases",
+    "dataset_id" : "MED_LF",
+    "dataset_name" : "Medicinal Leaf",
+    "short_description" : "Healthy Medicinal Leaf",
+    "long_description" : "The Medicinal Leaf Database(https://data.mendeley.com/datasets/nnytj2v3n5/1) gathers 30 species of healthy and mature medicinal herbs. The leaves are plucked from different plants of the same species, then placed on a white uniform background. There are around 1 800 images in total, captured with a mobile phone camera. The original resolution is 1 600x1 200 px. We create Medleaf for Meta-Album by cropping them at the center and resize to 128x128 px.",
+    "keywords" : "medicinal leaf, plants, plant diseases",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC BY 4.0",
+    "license_url" : [
+        "https://data.mendeley.com/datasets/nnytj2v3n5/1",
+        "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "license_detaills" : "",
+    "meta-album_license" : "CC BY 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by/4.0/",
+    "source" : "Medicinal Leaf Dataset",
+    "source_url" : ["https://data.mendeley.com/datasets/nnytj2v3n5/1"],
+    "original_author": "S Roopashree, J Anitha",
+    "original_contact" : "",
+    "citation" : "MED_LF.bib",
+    "meta-album_author": "Phan Anh VU",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 25,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1000
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 26,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 14, 
+        "median_images_per_category" : 57.5,
+        "maximum_images_per_category" : 122, 
+        "total_images": 1596
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44314,
+        "mini" : 44299,
+        "extended" : 44332
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

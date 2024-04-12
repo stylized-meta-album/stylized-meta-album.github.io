@@ -1,0 +1,65 @@
+{
+    "id" : "HUM_ACT.SPT",
+    "domain_id" : "HUM_ACT",
+    "domain_name" : "Human Actions",
+    "dataset_id" : "SPT",
+    "dataset_name" : "Sports Actions",
+    "short_description" : "100 Sports Dataset",
+    "long_description" : "The 100-Sports dataset(https://www.kaggle.com/datasets/gpiosenka/sports-classification) is a collection of sports images covering 73 different sports. Images are 224x224x3 in size and in .jpg format. Images were gathered from internet searches. The images were scanned with a duplicate image detector program and all duplicate images were removed. For Meta-Album, the dataset is preprocessed and images are resized into 128x128 pixels using Open-CV.",
+    "keywords" : "human actions, sports",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC0 1.0 Public Domain",
+    "license_url" : [
+        "https://www.kaggle.com/gpiosenka/sports-classification",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "license_details" : "",
+    "meta-album_license" : "CC0 1.0 Public Domain",
+    "meta-album_license_url" : "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source" : "100 Sports Image Classification",
+    "source_url" : ["https://www.kaggle.com/gpiosenka/sports-classification"],
+    "original_author": "Gerald Piosenka",
+    "original_contact" : "https://www.kaggle.com/gpiosenka/contact",
+    "citation" : "SPT.bib",
+    "meta-album_author": "Jilin He",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 73,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 2920
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 73,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 99, 
+        "median_images_per_category" : 141,
+        "maximum_images_per_category" : 191, 
+        "total_images": 10416
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44240,
+        "mini" : 44284,
+        "extended" : 44319
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 0
+}

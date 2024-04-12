@@ -1,0 +1,62 @@
+{
+    "id" : "HUM_ACT.ACT_40",
+    "domain_id" : "HUM_ACT",
+    "domain_name" : "Human Actions",
+    "dataset_id" : "ACT_40",
+    "dataset_name" : "Stanford 40 Actions",
+    "short_description" : "Stanford 40 Actions dataset with images of humans performing 40 actions.",
+    "long_description" : "The Stanford 40 Actions dataset(http://vision.stanford.edu/Datasets/40actions.html) contains images of humans performing 40 actions. There are 9 532 images in total with 180-300 images per action class. The dataset is designed for understanding human actions in still images. For Meta-Album, the dataset is preprocessed and images are resized into 128x128 pixels using Open-CV.",
+    "keywords" : "human actions",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Cite paper to use dataset",
+    "license_url" : [],
+    "license_details" : "",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "Stanford 40 Actions",
+    "source_url" : ["http://vision.stanford.edu/Datasets/40actions.html"],
+    "original_author": "B. Yao, X. Jiang, A. Khosla, A.L. Lin, L.J. Guibas, and L. Fei-Fei.",
+    "original_contact": "bangpeng@cs.stanford.edu",
+    "citation" : "ACT_40.bib",
+    "meta-album_author": "Jilin He",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 39,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1560
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 40,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 11, 
+        "median_images_per_category" : 88,
+        "maximum_images_per_category" : 110, 
+        "total_images": 3389
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44247,
+        "mini" : 44291,
+        "extended" : 44325
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

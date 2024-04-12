@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Meta Album</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+  <!-- Social media share icon -->
+  <meta property="og:title" content="Meta Album" />
+  <meta property="og:description" content="A meta-dataset for few-shot image classification" />
+  
+  <meta property="og:image" content="assets/img/logo.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="200">
+  <meta property="og:image:height" content="200">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/73b63368a9.js" crossorigin="anonymous"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="fa-solid fa-circle-info"></i> <span>About</span></a></li>
+        <li><a href="#code" class="nav-link scrollto"><i class="fa-brands fa-github"></i> <span>Code</span></a></li>
+        <li><a href="#datasets" class="nav-link scrollto"><i class="fa-solid fa-table-list"></i> <span>Datasets</span></a></li>
+        <li><a href="#gallery" class="nav-link scrollto"><i class="fa-solid fa-images"></i> <span>Gallery</span></a></li>
+        <li><a href="#citation" class="nav-link scrollto"><i class="fa-solid fa-quote-left"></i> <span>Citation</span></a></li>
+        <li><a href="#partners" class="nav-link scrollto"><i class="fa-solid fa-handshake"></i> <span>Partners</span></a></li>
+        <li><a href="credits.html" class="nav-link scrollto"><i class="fa-solid fa-medal"></i> <span>Credits</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="fa-solid fa-address-book"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <div class="logo-img">
+        <img width=200 src="assets/img/logo-white-text.png">
+      </div>
+      <div>
+        <!-- <h1>Meta Album</h1> -->
+        <p>A meta-dataset for<br>few-shot image classification</p>
+        <p>
+          <span class="badge bg-blue text-light">few-shot learning</span>
+          <span class="badge bg-orange text-light">meta-learning</span>
+          <span class="badge bg-pink text-light">continual learning</span>
+          <span class="badge bg-green text-light">transfer learning</span>
+          <span class="badge bg-purple text-light">image classification</span>
+        </p>
+        <div class="social-links">
+          <a class="btn btn-outline-light" href="paper/Meta-Album.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i> Meta-Album Paper</a>
+          <a class="btn btn-outline-light" href="#citation"><i class="fa-solid fa-quote-left"></i> Cite Meta-Album</a>
+          <a class="btn btn-outline-light" href="https://paperswithcode.com/dataset/meta-album" target="_blank">Meta-Album on Papers with Code</a>
+          
+        </div>
+      </div>
+      
+      
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="services">
+      <div class="container" data-aos="fade-up">
+
+        
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Meta Album is a meta-dataset created for few-shot learning, meta-learning, continual learning and so on. 
+            Meta Album consists of 40 datasets from 10 unique domains. Datasets are arranged in sets (10 datasets, one dataset from each domain).
+            It is a continuously growing meta-dataset. See our datasets in <a href="#datasets"><b><code>Datasets Section</code></b></a>.
+          </p>
+          <p>
+            We repurposed datasets that were generously made available by original creators, see <a href="credits.html" target="_blank"><b><code>credits page</code></b></a>.
+            All datasets are free for use for academic purposes, provided that proper credits are given. For your convenience, you may <a href="#citation"><b><code>cite</code></b></a> our <a target="_blank" href="paper/Meta-Album.pdf"><b><code>paper</code></b></a>,
+            which references all original creators.
+          </p>
+          <h4>License</h4>
+          <p>
+            Meta-Album is released under a <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"><b><code>CC BY-NC 4.0</code></b></a> license permitting non-commercial use for research purposes, provided that you <a href="#citation"><b><code>cite</code></b></a> us. Additionally, redistributed datasets have their own license, see the <a href="credits.html" target="_blank"><b><code>credits page</code></b></a>. All resources made available through this website provided “as is”.  The curators of Meta-Album (and their home institutions and their sponsors) who have worked on its preparation, this website, the <a href="#code"><b><code>code</code></b></a> provided to read, process data, and run baseline methods, make no warranties concerning the licensed material, including fitness for any purpose, non-infringement  absence of defects or errors, accuracy, and they decline any liability for losses or other possible consequences that may arise by using such material. 
+            <br>
+            This briefly summarizes the terms of the license <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"><b><code>CC BY-NC 4.0</code></b></a>  and the disclaimer (that the license includes).
+          </p>
+          <h4>Recommended use</h4>
+          <p>
+            The recommended use of Meta-Album is to conduct fundamental research on machine learning algorithms and conduct benchmarks, particularly in: few-shot learning, meta-learning, continual learning, transfer learning, and image classification.
+          </p>
+            
+        </div>
+        
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Code Section ======= -->
+    <section id="code" class="services">
+      <div class="container" data-aos="fade-up">
+
+        
+        <div class="section-title">
+          <h2>Code</h2>
+          <p>
+            We provide code in our <a target="_blank" href="https://github.com/ihsaan-ullah/meta-album"><b><code>GitHub Repository</code></b></a> for 
+            <ol>
+              <li>Data processing</li>
+              <li>Data formatting</li>
+              <li>Quality control</li>
+              <li>Meta-Album use cases</li>
+              <li><a href="https://metalearning.chalearn.org/metadlneurips2021" target="_blank">Challenge winners code <i>(NeurIPS 2021 MetaDL competition)</i></a></li>
+              
+            </ol>
+            
+          </p>
+          <p>Visit our GitHub repository for more details.</p>
+          <a class="btn btn-lg btn-dark" href="https://github.com/ihsaan-ullah/meta-album" target="_blank"><i class="fa-brands fa-github"></i> Meta-Album GitHub Repository</a>
+
+            
+        </div>
+
+      </div>
+    </section><!-- End Code Section -->
+
+    <!-- ======= Datasets Section ======= -->
+    <section id="datasets" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Datasets</h2>
+          <p>We list in the tables below the data statistics of the original datasets. We generally chose image classification datasets with at least 20 classes having more than 40 examples per class. 
+            Each dataset was transformed into 128x128 pixel images. The data is available in 4 versions: 
+          </p>
+          <ol>
+            <li>Original data (from the original creators’ website)
+            </li>
+            <li>Meta Album extended = All classes having at least 40 examples per class, images 128x128 pixel</li>
+            <li>Meta Album mini = same as Meta Album extended, but we randomly sampled only 40 examples for each class (hence the datasets are class-balanced)</li>
+            <li>Meta Album micro = same as Meta Album mini, but only 20 randomly selected classes.
+            </li>
+          </ol>
+
+          
+          
+          <h4>Download Instructions</h4>
+          <p>
+            Our datasets are hosted on <a target="_blank" href="https://www.openml.org/"><b><code>OpenML platform</code></b></a>. The following piece of code will help you download the datasets.
+            <br>
+            <a href="https://openml.github.io/openml-python/main/#how-to-get-openml-for-python" target="_blank">Install OpenML for python</a>
+            
+          </p>
+        </div>
+
+        <!-- Download Code -->
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <h4> Download using OpenML python API</h4>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <pre class="pt-4  bg-light rounded openml_code">
+    <span class="code_comment"># import openml</span>
+    import openml
+
+    <span class="code_comment"># download dataset with DATASET_ID. Check Dataset detail page for DATASET_ID</span>
+    dataset = openml.datasets.get_dataset(<span class="code_constant_blue">DATASET_ID</span>, download_data=<span class="code_constant_red">True</span>, download_all_files=<span class="code_constant_red">True</span>)
+
+    <span class="code_comment"># display dataset info</span>
+    print(dataset.name)
+            </pre>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <p> Datasets are downloaded in openml cache directory. You can check it with this code:</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <pre class="pt-4  bg-light rounded openml_code">
+    <span class="code_comment"># display openml cache directory</span>
+    print(openml.config.cache_directory)
+            </pre>
+          </div>
+        </div>
+
+        
+        <!-- Set 0 -->
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="table-responsive col-lg-10">
+            <table class="table caption-top">
+              <caption class=" alert alert-success text-caption">
+                Datasets <span class="text-caption-set">Set-0</span>, release date: <span class="text-caption-date">06 June 2022</span>
+              </caption>
+
+              <thead>
+                <tr>
+                  <th scope="col">Meta Album ID</th><th scope="col">Domain</th><th scope="col">Original Dataset</th><th scope="col"># Classes</th><th scope="col"># Images</th><th scope="col">More</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th scope="row">LR_AM.BRD</th>
+                  <td>Large Animals</td><td>Birds</td><td>315</td><td>62, 454</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/BRD.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">SM_AM.PLK</th>
+                  <td>Small Animals</td><td>Plankton</td><td>102</td><td>477,513</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/PLK.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">PLT.FLW</th>
+                  <td>Plants</td><td>Flowers</td><td>102</td><td>13,069</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/FLW.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">PLT_DIS.PLT_VIL</th>
+                  <td>Plant Diseases</td><td>Plant Village</td><td>38</td><td>56, 625</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/PLT_VIL.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">MCR.BCT</th>
+                  <td>Microscopy</td><td>Bacteria</td><td>33</td><td>6,180</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/BCT.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">REM_SEN.RESISC</th>
+                  <td>Remote Sensing</td><td>RESISC</td><td>45</td><td>34,100<td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/RESISC.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">VCL.CRS</th>
+                  <td>Vehicles</td><td>Cars</td><td>196</td><td>24,825</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/CRS.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">MNF.TEX</th>
+                  <td>Manufacturing</td><td>Textures</td><td>64</td><td>12,035</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/TEX.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">HUM_ACT.SPT</th>
+                  <td>Human Actions</td><td>73 Sports</td><td>73</td><td>14,136</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/SPT.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">OCR.MD_MIX</th>
+                  <td>OCR</td><td>Omniprint-MD-mix</td><td>706</td><td>29,040</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/MD_MIX.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>                
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Set 1  -->
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="table-responsive col-lg-10">
+            <table class="table caption-top">
+              <caption class=" alert alert-info text-caption">
+                Datasets <span class="text-caption-set">Set-1</span>, release date: <span class="text-caption-date">28 November 2022</span>
+              </caption>
+
+              <thead>
+                <tr>
+                  <th scope="col">Meta Album ID</th><th scope="col">Domain</th><th scope="col">Original Dataset</th><th scope="col"># Classes</th><th scope="col"># Images</th><th scope="col">More</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th scope="row">LR_AM.DOG</th>
+                  <td>Large Animals</td><td>Dogs</td><td>120</td><td>26,080</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/DOG.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">SM_AM.INS_2</th>
+                  <td>Small Animals</td><td>Insects 2</td><td>102</td><td>80,102</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/INS_2.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">PLT.PLT_NET</th>
+                  <td>Plants</td><td>PlantNet</td><td>25</td><td>122,488</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/PLT_NET.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">PLT_DIS.MED_LF</th>
+                  <td>Plant Diseases</td><td>Medicinal Leaf</td><td>26</td><td>3,396</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/MED_LF.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">MCR.PNU</th>
+                  <td>Microscopy</td><td>PanNuke</td><td>19</td><td>7,090</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/PNU.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">REM_SEN.RSICB</th>
+                  <td>Remote Sensing</td><td>RSICB</td><td>45</td><td>39,307<td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/RSICB.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">VCL.APL</th>
+                  <td>Vehicles</td><td>Airplanes</td><td>21</td><td>11,265</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/APL.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">MNF.TEX_DTD</th>
+                  <td>Manufacturing</td><td>Textures DTD</td><td>47</td><td>8,320</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/TEX_DTD.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">HUM_ACT.ACT_40</th>
+                  <td>Human Actions</td><td>Stanford 40 Actions</td><td>40</td><td>5,749</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/ACT_40.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">OCR.MD_5_BIS</th>
+                  <td>OCR</td><td>Omniprint-MD-5-bis</td><td>706</td><td>29,040</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/MD_5_BIS.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>                
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Set 2  -->
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="table-responsive col-lg-10">
+            <table class="table caption-top">
+              <caption class=" alert alert-primary text-caption">
+                Datasets <span class="text-caption-set">Set-2</span>, release date: <span class="text-caption-date">28 November 2022</span>
+              </caption>
+
+              <thead>
+                <tr>
+                  <th scope="col">Meta Album ID</th><th scope="col">Domain</th><th scope="col">Original Dataset</th><th scope="col"># Classes</th><th scope="col"># Images</th><th scope="col">More</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th scope="row">LR_AM.AWA</th>
+                  <td>Large Animals</td><td>Animals with Attributes</td><td>50</td><td>40,118</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/AWA.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">SM_AM.INS</th>
+                  <td>Small Animals</td><td>Insects</td><td>117</td><td>175,416</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/INS.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">PLT.FNG</th>
+                  <td>Plants</td><td>Fungi</td><td>25</td><td>16,922</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/FNG.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">PLT_DIS.PLT_DOC</th>
+                  <td>Plant Diseases</td><td>PlantDoc</td><td>27</td><td>4,429</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/PLT_DOC.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">MCR.PRT</th>
+                  <td>Microscopy</td><td>Subcel. Human Protein</td><td>21</td><td>16,690</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/PRT.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">REM_SEN.RSD</th>
+                  <td>Remote Sensing</td><td>RSD</td><td>43</td><td>46,145<td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/RSD.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">VCL.BTS</th>
+                  <td>Vehicles</td><td>Boats</td><td>26</td><td>140,207</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/BTS.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">MNF.TEX_ALOT</th>
+                  <td>Manufacturing</td><td>Textures ALOT</td><td>250</td><td>35,800</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/TEX_ALOT.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">HUM_ACT.ACT_410</th>
+                  <td>Human Actions</td><td>MPII Human Pose</td><td>29</td><td>4,362</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/ACT_410.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>
+                <tr>
+                  <th scope="row">OCR.MD_6</th>
+                  <td>OCR</td><td>Omniprint-MD-6</td><td>703</td><td>28,920</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/MD_6.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
+                </tr>                
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+       
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="alert alert-warning col-lg-10">
+            <span class="text-caption">Datasets <span class="text-caption-set">Set-3</span>, release date: <span class="text-caption-date">June 2023</span></span>
+          </div>
+        </div>
+
+        
+
+        
+        
+
+      </div>
+    </section><!-- End Datasets Section -->
+
+
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Some sample images from Meta Album datasets</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10 col-md-12 align-items-stretch mt-4 mt-lg-0 text-center">
+            <img src="assets/img/samples/sample.png"  class="img-fluid">
+          </div>
+        </div>
+        <div class="section-title">
+          <a class="btn btn-outline-dark" href="gallery.html" >See More</a>
+        </div>
+          
+
+
+        
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Citation Section ======= -->
+    <section id="citation" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Citation</h2>
+          <p>If you are using Meta Album, cite our paper as mentioned below:</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <pre class="pt-4  bg-light rounded">
+  @inproceedings{meta-album-2022,
+    title={Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
+    author={Ullah, Ihsan and Carrion, Dustin and Escalera, Sergio and Guyon, Isabelle M and Huisman, Mike and Mohr, Felix and van Rijn, Jan N and Sun, Haozhe and Vanschoren, Joaquin and Vu, Phan Anh},
+    booktitle={Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    url = {https://meta-album.github.io/},
+    year = {2022}
+  }
+            </pre>
+            
+          <a class="btn btn-outline-dark" target="_blank" href="assets/files/meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+          <a class="btn btn-outline-dark" href="paper/Meta-Album.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i> Meta-Album Paper</a>
+          
+        </div>
+          
+
+  
+        </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Citation Section -->
+      
+
+    <!-- ======= Partners Section ======= -->
+    <section id="partners" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contributors and Institutions</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="http://www.chalearn.org/"><img src="assets/img/institutions/chalearn.png"  class="img-fluid partner-img"></a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://openml.org/"><img src="assets/img/institutions/openml.png"  class="img-fluid partner-img"></a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://www.universite-paris-saclay.fr/en"><img src="assets/img/institutions/paris_saclay_uni.png"  class="img-fluid partner-img"></a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://www.universiteitleiden.nl/en"><img src="assets/img/institutions/leiden_uni.png"  class="img-fluid partner-img"></a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://www.unisabana.edu.co/englishversion/"><img src="assets/img/institutions/col_uls.jpeg"  class="img-fluid partner-img"></a>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- End Partners Section -->
+
+    <!-- ======= Sponsors Section ======= -->
+    <section id="sponsors" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Sponsors</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://www.google.com/"><img src="assets/img/sponsors/google.png"  class="img-fluid partner-img"></a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://en.4paradigm.com/index.html"><img src="assets/img/sponsors/4_paradigm.png"  class="img-fluid partner-img"></a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://www.microsoft.com/"><img src="assets/img/sponsors/microsoft.png"  class="img-fluid partner-img"></a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://codalab.org/"><img src="assets/img/sponsors/codalab.png"  class="img-fluid partner-img"></a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Partners Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <p>Location:</p>
+                <h4><a href="https://goo.gl/maps/x34Xx4vjydDgHock7" target="_blank">LISN, Université Paris-Saclay France</a></h4>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col-lg-3">
+            <div class="info">
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <p>Email:</p>
+                <h4><a href="mailto: meta-album@chalearn.org" target="_blank">meta-album@chalearn.org</a></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="info">
+              <div class="email">
+                <i class="bi bi-twitter"></i>
+                <p>Twitter:</p>
+                <h4><a href="https://twitter.com/MetaAlbum" target="_blank">@MetaAlbum</a></h4>
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="credits">
+        License: <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"><img height='30' src="assets/img/by-nc.png"></a> &nbsp;&nbsp;&nbsp;&nbsp; Developed by: <a href=""><img height='30' src="assets/img/institutions/chalearn.png"></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

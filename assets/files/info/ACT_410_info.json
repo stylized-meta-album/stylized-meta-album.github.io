@@ -1,0 +1,65 @@
+{
+    "id" : "HUM_ACT.ACT_410",
+    "domain_id" : "HUM_ACT",
+    "domain_name" : "Human Actions",
+    "dataset_id" : "ACT_410",
+    "dataset_name" : "MPII Human Pose Dataset",
+    "short_description" : "MPII Human Pose Dataset with images of humans performing 410 activities.",
+    "long_description" : "The MPII Human Pose dataset (http://human-pose.mpi-inf.mpg.de/#download) is a state of the art benchmark for evaluation of articulated human pose estimation. It includes around 25 000 images containing over 40 000 people with annotated body joints. The images were systematically collected using an established taxonomy of every day human activities. Overall the dataset covers 410 human activities and each image is provided with an activity label. Each image was extracted from a YouTube video. Like other Meta-Album datasets, this dataset is preprocessed and all images are resized into 128x128 pixels.",
+    "keywords" : "human actions, sports",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Simplified BSD License",
+    "license_url" : [
+        "http://human-pose.mpi-inf.mpg.de/#download", 
+        "http://human-pose.mpi-inf.mpg.de/bsd.txt"
+    ],
+    "license_details" : "",
+    "meta-album_license" : "Simplified BSD License",
+    "meta-album_license_url" : "http://human-pose.mpi-inf.mpg.de/bsd.txt",
+    "source" : "MPII Human Pose Dataset",
+    "source_url" : ["http://human-pose.mpi-inf.mpg.de/#download"],
+    "original_author": "Mykhaylo Andriluka and Leonid Pishchulin and Peter Gehler and Schiele, Bernt",
+    "original_contact" : "leonid@mpi-inf.mpg.de",
+    "citation" : "ACT_410.bib",
+    "meta-album_author": "Jilin He",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 29,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1160
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 29,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 44, 
+        "median_images_per_category" : 59,
+        "maximum_images_per_category" : 176, 
+        "total_images": 2402
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44271,
+        "mini" : 44301,
+        "extended" : 44334
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 2
+}

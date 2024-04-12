@@ -1,0 +1,65 @@
+{
+    "id" : "LR_AM.BRD",
+    "domain_id" : "LR_AM",
+    "domain_name" : "Large Animals",
+    "dataset_id" : "BRD",
+    "dataset_name" : "Birds",
+    "short_description" : "Birds dataset for image classification",
+    "long_description" : "When Meta-Album was created, the Birds dataset(https://www.kaggle.com/datasets/gpiosenka/100-bird-species) contained images of 315 bird species, but now it has increased the number of species to 450. It has more than 49 000 images, each with a resolution of 224x224 px. All the images have their natural background, which can lead to bias since, for example, some birds are frequently found in water backgrounds. Additionally, the dataset is imbalanced regarding the ratio of male species images to female species images. The preprocessed version distributed in Meta-Album is made from the original dataset by resizing all the images to a resolution of 128x128 px using an anti-aliasing filter.",
+    "keywords" : "birds, animals",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC0 Public Domain",
+    "license_url" : [
+        "https://www.kaggle.com/gpiosenka/100-bird-species",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "license_details" : "",
+    "meta-album_license" : "CC0 Public Domain",
+    "meta-album_license_url" : "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source" : "BIRDS 400 - SPECIES IMAGE CLASSIFICATION",
+    "source_url" : ["https://www.kaggle.com/gpiosenka/100-bird-species"],
+    "original_author": "Gerald Piosenka",
+    "original_contact" : "https://www.kaggle.com/gpiosenka/contact",
+    "citation" : "BRD.bib",
+    "meta-album_author": "Dustin Carrion",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 315,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 12600
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 315,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 124, 
+        "median_images_per_category" : 150,
+        "maximum_images_per_category" : 259, 
+        "total_images": 49054
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44241,
+        "mini" : 44285,
+        "extended" : 44320
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 0
+}

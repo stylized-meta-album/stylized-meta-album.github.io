@@ -1,0 +1,62 @@
+{
+    "id" : "REM_SEN.RSD",
+    "domain_id" : "REM_SEN",
+    "domain_name" : "Remote Sensing",
+    "dataset_id" : "RSD",
+    "dataset_name" : "RSD",
+    "short_description" : "Remote sensing dataset",
+    "long_description" : "RSD46 dataset (https://github.com/RSIA-LIESMARS-WHU/RSD46-WHU) is collected from Google Earth and Tianditu. The collection contains 46 scene categories, with a total of 117 000 images. Each scene category has between 500-3 000 images. The original resolution are 256x256 px or 512x512 px. We have created preprocessed version of RSD for Meta-Album by resizing the original dataset to 128x128 px.",
+    "keywords" : "remote sensing, satellite image, aerial image, land cover",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Open for research and non-profit purposes",
+    "license_url" : [],
+    "license_detaills" : "Email confirmation",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "RSD46-WHU",
+    "source_url" : ["https://github.com/RSIA-LIESMARS-WHU/RSD46-WHU"],
+    "original_author": "Yang Long, Yiping Gong, Zhifeng Xiao, and Qing Liu, Deren Li, Chunshan Wei, Gefu Tang and Junyi Liu",
+    "original_contact" : "longyang@whu.edu.cn",
+    "citation" : "RSD.bib",
+    "meta-album_author": "Phan Anh VU",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 38,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1520
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 43,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 1, 
+        "median_images_per_category" : 436,
+        "maximum_images_per_category" : 3130, 
+        "total_images": 43825
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44277,
+        "mini" : 44307,
+        "extended" : 44341
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 2
+}

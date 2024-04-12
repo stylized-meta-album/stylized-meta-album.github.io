@@ -1,0 +1,55 @@
+{
+    "id" : "OCR.MD_5_BIS",
+    "domain_id" : "OCR",
+    "domain_name" : "Optical Character Recognition",
+    "dataset_id" : "MD_5_BIS",
+    "dataset_name" : "OmniPrint-MD-5-bis",
+    "short_description" : "Character images with a specific set of nuisance parameters",
+    "long_description" : "OmniPrint-MD-5-bis dataset consists of 28 240 images (128x128, RGB) from 706 categories. The images are synthesized with OmniPrint, and no further processing was done. The OmniPrint synthesis parameters are stated as follows: font size is 192, image size is 128, the strength of random perspective transformation is 0.04, left/right/top/bottom margins are all 20% of the image size, the strength of pre-rasterization elastic transformation is 0.035, random translation is activated both horizontally and vertically, image blending method is Poisson Image Editing, rotation is within −60 and 60 degrees, horizontal shear is within −0.5 and 0.5, the foreground is filled with a random color, the background consists of images downloaded from Pexels(https://www.pexels.com/).",
+    "keywords" : "ocr",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC BY 4.0",
+    "license_url" : [
+        "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "license_detaills" : "",
+    "meta-album_license" : "CC BY 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by/4.0/",
+    "source" : "OmniPrint",
+    "source_url" : ["https://github.com/SunHaozhe/OmniPrint"],
+    "original_author": "Haozhe Sun",
+    "original_contact" : "sunhaozhe275940200@gmail.com",
+    "citation" : "MD_5_BIS.bib",
+    "meta-album_author": "Haozhe Sun",
+    "has_super_categories" : true,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 23,
+        "total_categories": 706,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 28240
+    },
+    "date_created" : "25 June 2021",
+    "contact_name" : "Haozhe Sun",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44252,
+        "mini" : 44296,
+        "extended" : null
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

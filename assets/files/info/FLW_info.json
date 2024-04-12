@@ -1,0 +1,65 @@
+{
+    "id" : "PLT.FLW",
+    "domain_id" : "PLT",
+    "domain_name" : "Plants",
+    "dataset_id" : "FLW",
+    "dataset_name" : "Flowers",
+    "short_description" : "Flowers dataset from Visual Geometry Group, University of Oxford",
+    "long_description" : "The Flowers dataset(https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) consists of a variety of flowers gathered from different websites and some are photographed by the original creators. These flowers are commonly found in the UK. The images generally have large scale, pose and light variations. Some categories of flowers in the dataset has large variations of flowers while other have similar flowers in a category. The dataset was created back in 2008 at Oxford University by Nilsback, M-E. and Zisserman, A.[21]. The Flowers dataset in the Meta-Album meta-dataset is a preprocessed version of the original flowers dataset. The images are first cropped and made into squared images which are then resized into 128x128 with anti-aliasing filter.",
+    "keywords" : "flowers, ecology, plants",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "GNU General Public License Version 2",
+    "license_url" : [
+        "https://peltarion.com/knowledge-center/documentation/terms/dataset-licenses/oxford-102-category-flowers",
+        "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
+    ],
+    "license_details" : "",
+    "meta-album_license" : "GNU General Public License Version 2",
+    "meta-album_license_url" : "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html",
+    "source" : "Visual Geometry Group, University of Oxford, England",
+    "source_url" : ["https://www.robots.ox.ac.uk/~vgg/data/flowers/"],
+    "original_author": "Maria-Elena Nilsback,  Andrew Zisserman",
+    "original_contact" : "{men,az}@robots.ox.ac.uk",
+    "citation" : "FLW.bib",
+    "meta-album_author": "Felix Mohr",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 102,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 4080
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 102,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 40, 
+        "median_images_per_category" : 66,
+        "maximum_images_per_category" : 258, 
+        "total_images": 8189
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Felix Mohr",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44239,
+        "mini" : 44283,
+        "extended" : 44318
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 0
+}

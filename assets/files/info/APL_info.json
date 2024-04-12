@@ -1,0 +1,65 @@
+{
+    "id" : "VCL.APL",
+    "domain_id" : "VCL",
+    "domain_name" : "Vehicles",
+    "dataset_id" : "APL",
+    "dataset_name" : "Airplanes",
+    "short_description" : "Airplanes dataset with different aiplane models",
+    "long_description" : "The original Airplanes dataset (https://zenodo.org/record/3464319) comprises more than 9 000 remote sensing images acquired from Google Earth satellite imagery, including 21 different types of aircraft from around 36 airports. All the images were carefully labeled by seven specialists in the field of remote sensing image interpretation. Each class can have 230 to 846 images, where each image contains only one complete aircraft, and they have variable resolutions. To preprocess this dataset, we cropped the images from either side to make them square, and then we resized them into 128x128 px using an anti-aliasing filter.",
+    "keywords" : "vehicles, airplanes",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Creative Commons Attribution 4.0 International",
+    "license_url" : [
+        "https://zenodo.org/record/3464319",
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
+    ],
+    "license_details" : "",
+    "meta-album_license" : "Creative Commons Attribution 4.0 International",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "source" : "Muti-type Aircraft of Remote Sensing Images: MTARSI",
+    "source_url" : ["https://zenodo.org/record/3464319"],
+    "original_author": "Wu, Zhize",
+    "original_contact" : "",
+    "citation" : "APL.bib",
+    "meta-album_author": "Philip Boser",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 21,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 840
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 21,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 230, 
+        "median_images_per_category" : 480,
+        "maximum_images_per_category" : 846, 
+        "total_images": 9625
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44251,
+        "mini" : 44295,
+        "extended" : 44329
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

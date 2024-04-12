@@ -1,0 +1,62 @@
+{
+    "id" : "REM_SEN.RSICB",
+    "domain_id" : "REM_SEN",
+    "domain_name" : "Remote Sensing",
+    "dataset_id" : "RSICB",
+    "dataset_name" : "RSICB",
+    "short_description" : "Remote sensing dataset",
+    "long_description" : "RSICB128 dataset (https://github.com/lehaifeng/RSI-CB) covers 45 scene categories, assembling in total 36 000 images of resolution 128x128 px. The data authors select various locations around the world, and follow China’s landuse classification standard. This collection has 2-level label hierarchy with 6 super-categories: agricultural land, construction land and facilities, transportation and facilities, water and water conservancy facilities, woodland, and other lands. The preprocessed version of RSICB is created by resizing the images into 128x128 px using an anti-aliasing filter.",
+    "keywords" : "remote sensing, satellite image, aerial image, land cover",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Open for research purposes",
+    "license_url" : [],
+    "license_details" : "Email confirmation",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "RSI-CB: A Large Scale Remote Sensing Image Classification Benchmark via Crowdsource Data",
+    "source_url" : ["https://github.com/lehaifeng/RSI-CB"],
+    "original_author": "Haifeng Li, Xin Dou, Chao Tao, Zhixiang Hou, Jie Chen, Jian Peng, Min Deng, Ling Zhao",
+    "original_contact" : "lihaifeng@csu.edu.cn",
+    "citation" : "RSICB.bib",
+    "meta-album_author": "Phan Anh VU",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 7,
+        "total_categories": 45,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1800
+    },
+    "extended_version" : {
+        "total_super_categories": 7,
+        "total_categories": 45,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 173, 
+        "median_images_per_category" : 803,
+        "maximum_images_per_category" : 1550, 
+        "total_images": 36707
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44315,
+        "mini" : 44300,
+        "extended" : 44333
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

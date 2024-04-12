@@ -1,0 +1,62 @@
+{
+    "id" : "SM_AM.INS",
+    "domain_id" : "SM_AM",
+    "domain_name" : "Small Aninamls",
+    "dataset_id" : "INS",
+    "dataset_name" : "Insects",
+    "short_description" : "Insects dataset from Science Project SPIPOLL",
+    "long_description" : "The original Insects dataset is created by the National Museum of Natural History, Paris (https://www.mnhn.fr/fr). It has more than 290 000 images in different sizes and orientations. The dataset has hierarchical classes which are listed from top to bottom as Order, Super-Family, Family, and Texa. Each image contains an insect in its natural environment or habitat, i.e, either on a flower or near to vegetation. The images are collected by the researchers and hundreds of volunteers from SPIPOLL Science project(https://www.spipoll.org/). The images are uploaded to a centralized server either by using the SPIPOLL website, Android application or IOS application. The preprocessed insect dataset is prepared from the original Insects dataset by carefully preprocessing the images, i.e., cropping the images from either side to make squared images. These cropped images are then resized into 128x128 using Open-CV with an anti-aliasing filter.",
+    "keywords" : "insects, ecology",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC BY-NC 2.0",
+    "license_url" : ["https://www.spipoll.org/mentions-legales"],
+    "license_details" : "",
+    "meta-album_license" : "CC BY-NC 2.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/2.0/",
+    "source" : "SPIPOLL; National Museum of Natural History, Paris",
+    "source_url" : ["https://www.spipoll.org/"],
+    "original_author": "Grégoire Loïs, Colin Fontaine, Jean-Francois Julien",
+    "original_contact" : "contact@spipoll.org",
+    "citation" : "INS.bib",
+    "meta-album_author": "Ihsan Ullah",
+    "has_super_categories" : true,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 28,
+        "total_categories": 104,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 4110
+    },
+    "extended_version" : {
+        "total_super_categories": 29,
+        "total_categories": 117,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 22, 
+        "median_images_per_category" : 231,
+        "maximum_images_per_category" : 49555, 
+        "total_images": 170506
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44276,
+        "mini" : 44306,
+        "extended" : 44340
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 2
+}

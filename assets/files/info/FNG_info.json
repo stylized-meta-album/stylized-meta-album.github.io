@@ -1,0 +1,62 @@
+{
+    "id" : "PLT.FNG",
+    "domain_id" : "PLT",
+    "domain_name" : "Plants",
+    "dataset_id" : "FNG",
+    "dataset_name" : "Fungi",
+    "short_description" : "Fungi dataset from Denmark",
+    "long_description" : "Meta-Album Fungi dataset is created by sampling the Danish Fungi 2020 dataset(https://arxiv.org/abs/2103.10107), itself a sampling of the Atlas of Danish Fungi’s repository. The images and labels which enter this database are sourced by a group consisting of 3 300 citizen botanists, then verified by their peers using a ranking of each person’s reliability, then finally verified by experts working at the Atlas. Of the 128 classes in the original Danish Fungi 2020 dataset, FNG retains the 25 most populous classes, belonging to six genera, for a total of 15 122 images total, with min 372, and max 1 221 images per class. Each image contains a colored 128x128 image of a fungus or a piece of a fungus from the corresponding class. Because the initial data were of widely varying sizes, we needed to crop a significant portion of the images, which we implemented by taking the largest possible square with center at the middle of the initial image. We then scaled each squared image to the 128x128 standard using the INTER_AREA anti-aliasing filter from Open-CV.",
+    "keywords" : "fungi, ecology, plants",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "BSD-3-Clause License",
+    "license_url" : ["https://github.com/picekl/DanishFungiDataset/blob/main/LICENSE"],
+    "license_details" : "",
+    "meta-album_license" : "BSD-3-Clause License",
+    "meta-album_license_url" : "https://github.com/picekl/DanishFungiDataset/blob/main/LICENSE",
+    "source" : "Danish Fungi Dataset",
+    "source_url" : ["https://sites.google.com/view/danish-fungi-dataset"],
+    "original_author": "Lukáš Picek, Milan Šulc, Jiří Matas, Jacob Heilmann-Clausen, Thomas S. Jeppesen, Thomas Læssøe, Tobias Frøslev",
+    "original_contact" : "lukaspicek@gmail.com",
+    "citation" : "FNG.bib",
+    "meta-album_author": "Felix Herron",
+    "has_super_categories" : true,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 6,
+        "total_categories": 25,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1000
+    },
+    "extended_version" : {
+        "total_super_categories": 6,
+        "total_categories": 25,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 372, 
+        "median_images_per_category" : 559,
+        "maximum_images_per_category" : 1221, 
+        "total_images": 15122
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44272,
+        "mini" : 44302,
+        "extended" : 44335
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 2
+}

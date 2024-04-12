@@ -1,0 +1,62 @@
+{
+    "id" : "LR_AM.DOG",
+    "domain_id" : "LR_AM",
+    "domain_name" : "Large Aninamls",
+    "dataset_id" : "DOG",
+    "dataset_name" : "Dogs",
+    "short_description" : "Dogs dataset with different breeds of dogs",
+    "long_description" : "Researchers from Stanford University created the original Dogs dataset (http://vision.stanford.edu/aditya86/ImageNetDogs/). It contains more than 20 000 images belonging to 120 breeds of dogs worldwide. The images and annotations came from ImageNet for the task of fine-grained image categorization. The number of images per class and the resolution is not balanced. Each class can have 148 to 252 images with a resolution from 100x105 to 2 448x3 264 px. This dataset has a little inter-class variation and a large intra-class variation due to color, pose, and occlusion. Most of the images in this dataset are taken in man-made environments leading to a significant background variation. The preprocessed version of this dataset is prepared from the original dataset by cropping the images from either side to make squared images. In case an image has a resolution lower than 128 px, the squared images are done by either duplicating the top and bottom-most 3 rows or the left and right most 3 columns based on the orientation of the original image. These square images are then resized into 128x128 px using an anti-aliasing filter.",
+    "keywords" : "dogs, animals",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Cite to use dataset, open for research",
+    "license_url" : [],
+    "license_details" : "",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "Stanford Dogs Dataset",
+    "source_url" : ["http://vision.stanford.edu/aditya86/ImageNetDogs/"],
+    "original_author": "Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao, Li Fei-Fei",
+    "original_contact" : "aditya86@cs.stanford.edu",
+    "citation" : "DOG.bib",
+    "meta-album_author": "Dustin Carrión",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 120,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 4800
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 120,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 144, 
+        "median_images_per_category" : 159.5,
+        "maximum_images_per_category" : 252, 
+        "total_images": 20480
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44313,
+        "mini" : 44298,
+        "extended" : 44331
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

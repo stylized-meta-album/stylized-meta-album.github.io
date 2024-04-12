@@ -1,0 +1,65 @@
+{
+    "id" : "MCR.PNU",
+    "domain_id" : "MCR",
+    "domain_name" : "Microscopic",
+    "dataset_id" : "PNU",
+    "dataset_name" : "PanNuke",
+    "short_description" : "19 Human Tissues Dataset",
+    "long_description" : "The PanNuke dataset(https://jgamper.github.io/PanNukeDataset/) is a semi-automatically generated segmentation and classification task of nuclei. The dataset contains 7 753 images of 19 different tissue types. For the Meta-Album meta-dataset, even though this dataset was designed as a segmentation task, we were able to transform it into a tissue classification task since we had the tissue type for each sample in the dataset. We also resized the images to 128x128 pixels and applied stain normalization to avoid bias and remove some spurious features.",
+    "keywords" : "microscopic, human tissues",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Attribution-NonCommercial-ShareAlike 4.0 International",
+    "license_url" : [
+        "https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke",
+        "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    ],
+    "license_detaills" : "",
+    "meta-album_license" : "Attribution-NonCommercial-ShareAlike 4.0 International",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "source" : "PanNuke: An Open Pan-Cancer Histology Dataset for Nuclei Instance Segmentation and Classification",
+    "source_url" : ["https://jgamper.github.io/PanNukeDataset/"],
+    "original_author": "Gamper, Jevgenij and Koohbanani, Navid Alemi and Benet, Ksenija and Khuram, Ali and Rajpoot, Nasir",
+    "original_contact" : "j.gamper@warwick.ac.uk",
+    "citation" : "PNU.bib",
+    "meta-album_author": "Romain Mussard",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 19,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 760
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 19,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 101, 
+        "median_images_per_category" : 186,
+        "maximum_images_per_category" : 967, 
+        "total_images": 5530
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44312,
+        "mini" : 44297,
+        "extended" : 44330
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

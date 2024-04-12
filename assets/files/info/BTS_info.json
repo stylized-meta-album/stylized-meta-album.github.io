@@ -1,0 +1,62 @@
+{
+    "id" : "VCL.BTS",
+    "domain_id" : "VCL",
+    "domain_name" : "Vehicles",
+    "dataset_id" : "BTS",
+    "dataset_name" : "Boats",
+    "short_description" : "Dataset with images of different boats",
+    "long_description" : "The original version of the Meta-Album boats dataset is called MARVEL dataset (https://github.com/avaapm/marveldataset2016). It has more than 138 000 images of 26 different maritime vessels in their natural background. Each class can have 1 802 to 8 930 images of variable resolutions. To preprocess this dataset, we either duplicate the top and bottom-most 3 rows or the left and right most 3 columns based on the orientation of the original image to create square images. No cropping was applied because the boats occupy most of the image, and applying this technique will lead to incomplete images. Finally, the square images were resized into 128x128 px using an anti-aliasing filter",
+    "keywords" : "vehicles, boats",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Cite paper to use dataset",
+    "license_url" : [],
+    "license_details" : "",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "MARVEL: A LARGE-SCALE IMAGE DATASET FOR MARITIME VESSELS",
+    "source_url" : ["https://github.com/avaapm/marveldataset2016"],
+    "original_author": "Gundogdu E., Solmaz B, Yucesoy V., Koc A.",
+    "original_contact" : "",
+    "citation" : "BTS.bib",
+    "meta-album_author": "Dustin Carrión",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 26,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1040
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 26,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 1802, 
+        "median_images_per_category" : 5725.5,
+        "maximum_images_per_category" : 8930, 
+        "total_images": 138367
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44279,
+        "mini" : 44309,
+        "extended" : 44343
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 2
+}

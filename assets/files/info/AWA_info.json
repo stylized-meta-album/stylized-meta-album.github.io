@@ -1,0 +1,62 @@
+{
+    "id" : "LR_AM.AWA",
+    "domain_id" : "LR_AM",
+    "domain_name" : "Large Aninamls",
+    "dataset_id" : "AWA",
+    "dataset_name" : "Animals with Attributes",
+    "short_description" : "Mamals dataset for image classification",
+    "long_description" : "The original Animals with Attributes 2 (AWA) dataset (https://cvml.ist.ac.at/AwA2/) was designed to benchmark transfer- learning algorithms, in particular attribute base classification and zero-shot learning. It has more than 37 000 images from 50 animals, where each animal corresponds to a class. The images of this dataset were collected from public sources, such as Flickr, in 2016, considering only images licensed for free use and redistribution. Each class can have 100 to 1 645 images with a resolution from 100x100 to 1 893x1 920 px. To preprocess this dataset, we cropped the images from either side to make them square. In case an image has a resolution lower than 128 px, the squared images are done by either duplicating the top and bottom-most 3 rows or the left and right most 3 columns based on the orientation of the original image. Lastly, the square images are resized into 128x128 px using an anti-aliasing filter.",
+    "keywords" : "mammals, animals,",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Creative Commons",
+    "license_url" : ["https://cvml.ist.ac.at/AwA2/"],
+    "license_details" : "One license per image. Data creators have collected all those images from Flickr which are free to redistribute.",
+    "meta-album_license" : "Creative Commons",
+    "meta-album_license_url" : "https://cvml.ist.ac.at/AwA2/",
+    "source" : "Animals with attributes 2",
+    "source_url" : ["https://cvml.ist.ac.at/AwA2/"],
+    "original_author": "Christoph H. Lampert, Bernt Schiele, Zeynep Akata",
+    "original_contact" : "chl@ist.ac.at",
+    "citation" : "AWA.bib",
+    "meta-album_author": "Dustin Carrión",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 50,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 2000
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 50,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 100, 
+        "median_images_per_category" : 728,
+        "maximum_images_per_category" : 1644, 
+        "total_images": 37318
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44275,
+        "mini" : 44305,
+        "extended" : 44338
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 2
+}

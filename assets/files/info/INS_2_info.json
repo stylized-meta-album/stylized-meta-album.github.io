@@ -1,0 +1,62 @@
+{
+    "id" : "SM_AM.INS2",
+    "domain_id" : "SM_AM",
+    "domain_name" : "Small Aninamls",
+    "dataset_id" : "INS2",
+    "dataset_name" : "Insects2",
+    "short_description" : "Insects dataset for Insect Pest Recognition",
+    "long_description" : "The pest insects dataset was originally created as a large scale benchmark dataset for Insect Pest Recognition (https://github.com/xpwu95/IP102). It contains more than 75 000 images belongs to 102 categories. It also has a hierarchical taxonomy and the insect pests which mainly affect one specific agricultural product are grouped into the same upper-level category. The preprocessed version is made from the original dataset by cropping the images in perfect squares and then resizing them into the required images size of 128x128.",
+    "keywords" : "insects, ecology",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Free for academic usage, cite to use dataset",  
+    "license_url" : ["https://github.com/xpwu95/IP102"],
+    "license_details" : "",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "IP102: A Large-Scale Benchmark Dataset for Insect Pest Recognition",
+    "source_url" : ["https://github.com/xpwu95/IP102"],
+    "original_author": "Xiaoping Wu, Chi Zhan, Yukun Lai, Ming-Ming Cheng, Jufeng Yang",
+    "original_contact" : "xpwu95@163.com",
+    "citation" : "INS_2.bib",
+    "meta-album_author": "Ihsan Ullah",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 102,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 4080
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 102,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 71, 
+        "median_images_per_category" : 482,
+        "maximum_images_per_category" : 5740, 
+        "total_images": 75222
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44248,
+        "mini" : 44292,
+        "extended" : 44326
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

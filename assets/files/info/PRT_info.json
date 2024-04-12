@@ -1,0 +1,65 @@
+{
+    "id" : "MCR.PRT",
+    "domain_id" : "MCR",
+    "domain_name" : "Microscopy",
+    "dataset_id" : "PRT",
+    "dataset_name" : "Subcellular Human Protein",
+    "short_description" : "Subcellular protein patterns in human cells",
+    "long_description" : "This dataset is a subset of the Subcellular dataset in the Protein Atlas project(https://www.proteinatlas.org/). The original dataset, which stems from the Human Protein Atlas Image Classification Kaggle competition(https://www.kaggle.com/competitions/human-protein-atlas-image-classification), comprises 31 072 RGBY images of size 512x512 px, each of which belongs to one or more out of 28 classes. The labels correspond to protein organelle localizations. For Meta-Album, we performed two modifications: (1), to turn the dataset into a multi-class dataset, we dropped all images belonging to more than a single class and also those images that belong to classes with less than 40 members; (2) we converted the remaining images into RGB simply by dropping the yellow channel; this was also a common practice in the competition. Finally, and as for all datasets in Meta-Album, the images from the original dataset were resized to 128x128 image size.",
+    "keywords" : "human protein, subcellular",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC BY-SA 3.0",
+    "license_url" : ["https://www.proteinatlas.org/about/licence"],
+    "license_details" : "",
+    "meta-album_license" : "CC BY-SA 3.0",
+    "meta-album_license_url" : "https://www.proteinatlas.org/about/licence",
+    "source" : "The Human Protein Atlas",
+    "source_url" : [
+        "https://proteinatlas.org",
+        "https://www.kaggle.com/c/human-protein-atlas-image-classification"
+    ],
+    "original_author": "Peter J Thul, Lovisa Akesson, Mikaela Wiking, Diana Mahdessian, Aikaterini Geladaki, Hammou Ait Blal, Tove Alm, Anna Asplund, Lars Björk, Lisa Breckels, and others",
+    "original_contact" : "contact@proteinatlas.org",
+    "citation" : "PRT.bib",
+    "meta-album_author": "Felix Mohr",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 21,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 840
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 21,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 98, 
+        "median_images_per_category" : 601,
+        "maximum_images_per_category" : 2414, 
+        "total_images": 15050
+    },
+    "date_created" : "01 June 2022",
+    "contact_name" : "Felix Mohr",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44278,
+        "mini" : 44308,
+        "extended" : 44342
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 2
+}

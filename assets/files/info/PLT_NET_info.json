@@ -1,0 +1,65 @@
+{
+    "id" : "PLT.PLT_NET",
+    "domain_id" : "PLT",
+    "domain_name" : "Plants",
+    "dataset_id" : "PLT_NET",
+    "dataset_name" : "PlantNet",
+    "short_description" : "Plants Dataset with different species of plants",
+    "long_description" : "Meta-Album PlantNet dataset is created by sampling the Pl@ntNet-300k dataset (https://openreview.net/forum?id=eLYinD0TtIt), itself a sampling of the Pl@ntNet Project’s repository. The images and labels which enter this database are sourced by citizen botanists from around the world, then confirmed using a weighted reliability score from others users, such that each image has been reviewed by 2.03 citizen botanists on average. Of the 1 081 classes in the original Pl@ntNet-300k dataset, PLT_NET retains the 25 most populous classes, belonging to 21 genera, for a total of 120 688 images total, with min 2 914, max 9 011 image distribution per class. Each image contains a colored 128x128 image of a plant or a piece or a plant from the corresponding class (or in some cases sketches of plants or plant cells on microscope slides), scaled from the initial variable width using the INTER_AREA anti-aliasing filter from Open-CV. Almost all images were initially square; cropping by taking the largest possible square with center at the middle of the initial image was applied otherwise.",
+    "keywords" : "ecology, plants, plant species",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Creative Commons Attribution 4.0 International",
+    "license_url" : [
+        "https://zenodo.org/record/4726653",
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
+    ],
+    "license_detaills" : "",
+    "meta-album_license" : "Creative Commons Attribution 4.0 International",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "source" : "PlantNet",
+    "source_url" : ["https://plantnet.org/en/2021/03/30/a-plntnet-dataset-for-machine-learning-researchers/"],
+    "original_author": "Garcin, Camille and Joly, Alexis and Bonnet, Pierre and Lombardo, Jean-Christophe and Affouard, Antoine and Chouet, Mathias and Servajean, Maximilien and Salmon, Joseph and Lorieul, Titouan",
+    "original_contact" : "camille.garcin@inria.fr",
+    "citation" : "PLT_NET.bib",
+    "meta-album_author": "Felix Herron",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 25,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1000
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 25,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 2914, 
+        "median_images_per_category" : 4236,
+        "maximum_images_per_category" : 9011, 
+        "total_images": 120688
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44249,
+        "mini" : 44293,
+        "extended" : 44327
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 1
+}

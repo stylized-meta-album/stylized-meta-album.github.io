@@ -1,0 +1,65 @@
+{
+    "id" : "PLT_DIS.PLT_VIL",
+    "domain_id" : "PLT_DIS",
+    "domain_name" : "Plant Diseases",
+    "dataset_id" : "PLT_VIL",
+    "dataset_name" : "Plant Village",
+    "short_description" : "Plant disease dataset",
+    "long_description" : "The Plant Village dataset(https://data.mendeley.com/datasets/tywbtsjrjv/1) contains camera photos of 17 crop leaves. The original image resolution is 256x256 px. This collection covers 26 plant diseases and 12 healthy plants. The leaves are removed from the plant and placed on gray or black background, in various lighting conditions. All images are captured on a variety of gray backgrounds, except Corn Common rust which has a black background. For the curated version, we exclude the irrelevant Background and Corn Common Rust classes from the original collection. Plant Village has a 2-level label hierarchy, the supercategory is the crop type and the category is the disease type. We have preprocessed Plant Village for Meta-Album by resizing a subset from the original dataset to 128x128 image size.",
+    "keywords" : "plants, plant diseases",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC0 1.0",
+    "license_url" : [
+        "https://data.mendeley.com/datasets/tywbtsjrjv/1",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "license_detaills" : "",
+    "meta-album_license" : "CC0 1.0",
+    "meta-album_license_url" : "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source" : "Plant Village Dataset",
+    "source_url" : ["https://github.com/spMohanty/PlantVillage-Dataset"],
+    "original_author": "Sharada Mohanty, David Hughes, and Marcel Salathé",
+    "original_contact" : "arunpandian@mamcet.com",
+    "citation" : "PLT_VIL.bib",
+    "meta-album_author": "Phan Anh VU",
+    "has_super_categories" : true,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 14,
+        "total_categories": 38,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1520
+    },
+    "extended_version" : {
+        "total_super_categories": 14,
+        "total_categories": 38,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 152, 
+        "median_images_per_category" : 1092.5,
+        "maximum_images_per_category" : 5507, 
+        "total_images": 54305
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44242,
+        "mini" : 44286,
+        "extended" : 44321
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 0
+}

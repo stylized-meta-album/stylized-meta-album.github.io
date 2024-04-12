@@ -1,0 +1,62 @@
+{
+    "id" : "MNF.TEX_ALOT",
+    "domain_id" : "MNF",
+    "domain_name" : "Manufacturing",
+    "dataset_id" : "TEX_ALOT",
+    "dataset_name" : "Textures-ALOT",
+    "short_description" : "Textures dataset from Amsterdam Library of Textures (ALOT)",
+    "long_description" : "Textures ALOT dataset (https://aloi.science.uva.nl/public_alot/) consists of 27 500 images from 250 categories. The images in the dataset are captured in controlled environment by the creators of the dataset. The images have different viewing angle, illumination angle, and illumination color for each material of texture. A preprocessed version of Textures-ALOT is used in the Meta-Album meta-dataset. The images are first cropped into square images and then resized to 128x128 with anti-aliasing filter.",
+    "keywords" : "textures, manufacturing",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Open for research, cite paper to use dataset",
+    "license_url" : [],
+    "license_details" : "",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
+    "source" : "Amsterdam Library of Textures (ALOT), University of Amsterdam, Netherlands",
+    "source_url" : ["https://aloi.science.uva.nl/public_alot/"],
+    "original_author": "Gertjan Burghouts, Jan-Mark Geusebroek",
+    "original_contact" : "geusebroek@uva.nl",
+    "citation" : "TEX_ALOT.bib",
+    "meta-album_author": "Ihsan Ullah",
+    "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories": 250,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 10000
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 250,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 100, 
+        "median_images_per_category" : 100,
+        "maximum_images_per_category" : 100, 
+        "total_images": 25000
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_id" : {
+        "micro" : 44274,
+        "mini" : 44304,
+        "extended" : 44337
+    },
+    "openml_url" : "https://www.openml.org/d/",
+    "meta-album_set" : 2
+}

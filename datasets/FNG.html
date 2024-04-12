@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      
+        <title>FNG | Meta Album</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+      
+        <!-- Favicons -->
+        <link href="../assets/img/favicon.png" rel="icon">
+        <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+        <!-- Vendor CSS Files -->
+      <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/73b63368a9.js" crossorigin="anonymous"></script>
+
+        <!-- Template Main CSS File -->
+        <link href="../assets/css/style.css" rel="stylesheet">
+
+    </head> 
+
+    <body>
+
+       
+            <!-- ======= About Section ======= -->
+    <section class="services">
+        <div class="container-fluid">
+  
+          <!-- Page Title -->
+          <div class="section-title">
+            <h2>Fungi Dataset</h2>
+          </div>
+
+          <!-- Table Title -->
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Dataset details </h3>
+            </div>
+            
+          </div>
+          
+          <!-- Table -->
+          <div class="row">
+            
+            <div class="col-lg-2"></div>
+            <div class="table-responsive col-lg-8">
+                <table class="table caption-top">
+                  <caption>Last updated: 15 Dec 2022</caption>
+
+                  <tbody>
+                    
+                    <tr>
+                      <th style="width: 30%" scope="row">Meta Album ID</th>
+                      <td>PLT.FNG</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Domain ID</th>
+                      <td>PLT</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Domain Name</th>
+                      <td>Plants</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Set Number</th>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Dataset ID</th>
+                      <td>FNG</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Dataset Name</th>
+                      <td>Fungi</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Short Description</th>
+                      <td>Fungi dataset from Denmark</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Long Description</th>
+                      <td>Meta-Album Fungi dataset is created by sampling the Danish Fungi 2020 dataset(https://arxiv.org/abs/2103.10107), itself a sampling of the Atlas of Danish Fungi repository. The images and labels which enter this database are sourced by a group consisting of 3 300 citizen botanists, then verified by their peers using a ranking of each person reliability, then finally verified by experts working at the Atlas. Of the 128 classes in the original Danish Fungi 2020 dataset, FNG retains the 25 most populous classes, belonging to six genera, for a total of 15 122 images total, with min 372, and max 1 221 images per class. Each image contains a colored 128x128 image of a fungus or a piece of a fungus from the corresponding class. Because the initial data were of widely varying sizes, we needed to crop a significant portion of the images, which we implemented by taking the largest possible square with center at the middle of the initial image. We then scaled each squared image to the 128x128 standard using the INTER_AREA anti-aliasing filter from Open-CV.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"># Classes</th>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"># Images</th>
+                      <td>15122</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Keywords</th>
+                      <td>fungi, ecology, plants</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Data Format</th>
+                      <td>images</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Image size</th>
+                      <td>128x128</td>
+                    </tr>
+                    
+                    <tr>
+                      <th scope="row">License <br>(original data release)</th>
+                      <td>BSD-3-Clause License</td>
+                    </tr>
+                    
+
+                    
+                    <tr>
+                      <th scope="row">License URL <br>(original data release)</th>
+                      <td>
+                        
+                        <a target="_blank" href="https://github.com/picekl/DanishFungiDataset/blob/main/LICENSE">https://github.com/picekl/DanishFungiDataset/blob/main/LICENSE</a> <br>
+                        
+                      </td>
+                    </tr>
+                    
+
+                    <tr>
+                      <th scope="row">License <br>(Meta-Album data release)</th>
+                      <td>BSD-3-Clause License</td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">License URL <br>(Meta-Album data release)</th>
+                      <td><a target="_blank" href="https://github.com/picekl/DanishFungiDataset/blob/main/LICENSE">https://github.com/picekl/DanishFungiDataset/blob/main/LICENSE</a> <br></td>
+                    </tr>
+                    
+                    <tr>
+                      <th scope="row">Source</th>
+                      <td>Danish Fungi Dataset</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Source URL</th>
+                      <td>
+                        
+                        <a target="_blank" href="https://sites.google.com/view/danish-fungi-dataset">https://sites.google.com/view/danish-fungi-dataset</a> <br>
+                        
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Original Author</th>
+                      <td>Lukas Picek, Milan Sulc, Jiri Matas, Jacob Heilmann-Clausen, Thomas S. Jeppesen, Thomas Laessoe, Tobias Froslev</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Original contact</th>
+                      <td>lukaspicek@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Meta Album author</th>
+                      <td>Felix Herron</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Created Date</th>
+                      <td>01 March 2022</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Contact Name</th>
+                      <td>Ihsan Ullah</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Contact Email</th>
+                      <td>meta-album@chalearn.org</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Contact URL</th>
+                      <td><a target="_blank" href="https://meta-album.github.io/">https://meta-album.github.io/</a></td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+          </div>
+
+
+
+          <!-- Download Meta-data Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Download Meta-data files</h3>
+            </div>
+          </div>
+
+          <!-- Download -->
+          <div class="row">
+
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6 col-md-6">
+
+              <a class="btn btn-outline-dark" target="_blank" href="../assets/files/info/FNG_info.json" download="FNG_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              
+              <a class="btn btn-outline-dark" target="_blank" href="../assets/files/datasheet/FNG.pdf" download="FNG.pdf"><i class="fa-solid fa-file-arrow-down"></i> Datasheet</a>
+            
+            </div>
+          </div>
+
+
+          <!-- Download Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Download Dataset from OpenML</h3>
+            </div>
+          </div>
+
+          <!-- Download -->
+
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="table-responsive col-lg-8">
+              <table class="table caption-top">
+                <tbody>
+                  <tr>
+                    <th style="width: 30%" scope="row">Dataset Version</th>
+                    <th>OpenML ID</th>
+                    <td></td>
+                  </tr>
+                  
+                  
+                  <tr>
+                    <td>Micro</td>
+                    <td>44272</td>
+                    <td><a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/44272"><i class="fa-solid fa-link"></i> Download</a></td>
+                  </tr>
+                  
+
+                  
+                  <tr>
+                    <td>Mini</td>
+                    <td>44302</td>
+                    <td><a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/44302"><i class="fa-solid fa-link"></i> Download</a></td>
+                  </tr>
+                  
+
+                  
+                  <tr>
+                    <td>Extended</td>
+                    <td>44335</td>
+                    <td><a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/44335"><i class="fa-solid fa-link"></i> Download</a></td>
+                  </tr>
+                  
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+          <!-- Download Code Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Code to download dataset using OpenML API</h3>
+            </div>
+          </div>
+
+          <!-- Download Sample Code -->
+          <div class="row">
+
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded openml_code">
+      <span class="code_comment"># import openml</span>
+      import openml
+  
+      <span class="code_comment"># download dataset with DATASET_ID. DATASET_ID is OpenML ID</span>
+      dataset = openml.datasets.get_dataset(<span class="code_constant">DATASET_ID</span>)
+  
+      <span class="code_comment"># display dataset info</span>
+      print(dataset.name)
+              </pre>
+            </div>
+          </div>
+          
+
+
+          <!-- Thumbnail Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Sample Images</h3>
+            </div>
+          </div>
+
+          <!-- Thumbnai -->
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0">
+              <img src="../assets/img/samples/FNG.png"  class="img-fluid">
+            </div>
+          </div>
+
+
+          <!-- Citation Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Cite this dataset </h3>
+            </div>
+          </div>
+
+          <!-- Citation -->
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded">
+@article{picek2021danish,
+    title={Danish Fungi 2020 - Not Just Another Image Recognition Dataset},
+    author={Lukas Picek and Milan Sulc and Jiri Matas and Jacob Heilmann-Clausen and Thomas S. Jeppesen and Thomas Laessoe and Tobias Froslev},
+    year={2021},
+    eprint={2103.10107},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+              </pre>
+            <a class="btn btn-outline-dark" target="_blank" href="../assets/files/bib/FNG.bib" download="FNG.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+            </div>
+          </div>
+
+
+          <!-- Citation Meta Album Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Cite Meta-Album</h3>
+            </div>
+          </div>
+
+          <!-- Citation Meta Album -->
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded">
+  @inproceedings{meta-album-2022,
+    title={Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
+    author={Ullah, Ihsan and Carrion, Dustin and Escalera, Sergio and Guyon, Isabelle M and Huisman, Mike and Mohr, Felix and van Rijn, Jan N and Sun, Haozhe and Vanschoren, Joaquin and Vu, Phan Anh},
+    booktitle={Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    url = {https://meta-album.github.io/},
+    year = {2022}
+  }
+              </pre>
+            <a class="btn btn-outline-dark" target="_blank" href="../assets/files/meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+            </div>
+          </div>
+
+
+  
+          
+          
+  
+        </div>
+      </section><!-- End About Section -->
+        
+      <script src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
