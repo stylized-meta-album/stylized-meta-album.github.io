@@ -1,0 +1,49 @@
+ <h4>Download Instructions</h4>
+          <p>
+            Our datasets are hosted on <a target="_blank" href="https://www.openml.org/"><b><code>OpenML platform</code></b></a>. The following piece of code will help you download the datasets.
+            <br>
+            <a href="https://openml.github.io/openml-python/main/#how-to-get-openml-for-python" target="_blank">Install OpenML for python</a>
+            
+          </p>
+
+
+          <!-- Download Code -->
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <h4> Download using OpenML python API</h4>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <pre class="pt-4  bg-light rounded openml_code">
+    <span class="code_comment"># import openml</span>
+    import openml
+
+    <span class="code_comment"># download dataset with DATASET_ID. Check Dataset detail page for DATASET_ID</span>
+    dataset = openml.datasets.get_dataset(<span class="code_constant_blue">DATASET_ID</span>, download_data=<span class="code_constant_red">True</span>, download_all_files=<span class="code_constant_red">True</span>)
+
+    <span class="code_comment"># display dataset info</span>
+    print(dataset.name)
+            </pre>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <p> Datasets are downloaded in openml cache directory. You can check it with this code:</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <pre class="pt-4  bg-light rounded openml_code">
+    <span class="code_comment"># display openml cache directory</span>
+    print(openml.config.cache_directory)
+            </pre>
+          </div>
+        </div>
