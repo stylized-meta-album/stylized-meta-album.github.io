@@ -1,10 +1,10 @@
 {
-    "id" : "LR_AM.BRD",
+    "id" : "LR_AM.BRD_STY",
     "domain_id" : "LR_AM",
     "domain_name" : "Large Animals",
-    "dataset_id" : "BRD",
-    "dataset_name" : "Birds",
-    "dataset_description" : "Birds dataset for image classification",
+    "dataset_id" : "BRD_STY",
+    "dataset_name" : "Birds Stylized",
+    "dataset_description" : "Birds dataset for image classification (stylized)",
     "keywords" : "birds, animals",
     "data_format": "images",
     "image_size": "256x256",
@@ -23,14 +23,14 @@
     "citation" : "BRD.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 4531,
+        "num_classes": 400,
+        "num_images": 90620,
         "min_images_per_class": 213,
         "max_images_per_class": 273
     },
@@ -39,8 +39,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46036,
-        "extended" : 46035
+        "mini" : 46034,
+        "extended" : 46033
     },
     "openml_url" : "https://www.openml.org/d/"
 }

@@ -1,10 +1,10 @@
 {
-    "id" : "PLT.PLT_NET",
+    "id" : "PLT.PLT_NET_STY",
     "domain_id" : "PLT",
     "domain_name" : "Plants",
-    "dataset_id" : "PLT_NET",
-    "dataset_name" : "PlantNet",
-    "dataset_description" : "Plants Dataset with different species of plants",
+    "dataset_id" : "PLT_NET_STY",
+    "dataset_name" : "PlantNet Stylized",
+    "dataset_description" : "Plants Dataset with different species of plants (stylized)",
     "keywords" : "ecology, plants, plant species",
     "data_format": "images",
     "image_size": "256x256",
@@ -23,14 +23,14 @@
     "citation" : "PLT_NET.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 30000,
+        "num_classes": 400,
+        "num_images": 600000,
         "min_images_per_class": 1500,
         "max_images_per_class": 1500
     },
@@ -39,8 +39,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46055,
-        "extended" : 46056
+        "mini" : 46054,
+        "extended" : 46053
     },
     "openml_url" : "https://www.openml.org/d/"
 }

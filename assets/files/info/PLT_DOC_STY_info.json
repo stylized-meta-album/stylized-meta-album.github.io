@@ -1,10 +1,10 @@
 {
-    "id" : "PLT_DIS.PLT_DOC",
+    "id" : "PLT_DIS.PLT_DOC_STY",
     "domain_id" : "PLT_DIS",
     "domain_name" : "Plant Diseases",
-    "dataset_id" : "PLT_DOC",
-    "dataset_name" : "Plant Doc",
-    "dataset_description" : "Plant disease dataset",
+    "dataset_id" : "PLT_DOC_STY",
+    "dataset_name" : "Plant Doc Stylized",
+    "dataset_description" : "Plant disease dataset (stylized)",
     "keywords" : "plants, plant diseases,",
     "data_format": "images",
     "image_size": "256x256",
@@ -20,14 +20,14 @@
     "citation" : "PLT_DOC.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 2135,
+        "num_classes": 400,
+        "num_images": 42620,
         "min_images_per_class": 69,
         "max_images_per_class": 191
     },
@@ -36,8 +36,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46052,
-        "extended" : 46051
+        "mini" : 46050,
+        "extended" : 46049
     },
     "openml_url" : "https://www.openml.org/d/"
 }

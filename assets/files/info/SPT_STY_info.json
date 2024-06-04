@@ -1,10 +1,10 @@
 {
-    "id" : "HUM_ACT.SPT",
+    "id" : "HUM_ACT.SPT_STY",
     "domain_id" : "HUM_ACT",
     "domain_name" : "Human Actions",
-    "dataset_id" : "SPT",
-    "dataset_name" : "Sports Actions",
-    "dataset_description" : "100 Sports Dataset",
+    "dataset_id" : "SPT_STY",
+    "dataset_name" : "Sports Actions Stylized",
+    "dataset_description" : "100 Sports Dataset (stylized)",
     "keywords" : "human actions, sports",
     "data_format": "images",
     "image_size": "256x256",
@@ -23,14 +23,14 @@
     "citation" : "SPT.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 3511,
+        "num_classes": 400,
+        "num_images": 70220,
         "min_images_per_class": 161,
         "max_images_per_class": 201
     },
@@ -39,8 +39,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46069,
-        "extended" : 46068
+        "mini" : 46067,
+        "extended" : 46066
     },
     "openml_url" : "https://www.openml.org/d/"
 }

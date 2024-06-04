@@ -1,10 +1,10 @@
 {
-    "id" : "VCL.APL",
+    "id" : "VCL.APL_STY",
     "domain_id" : "VCL",
     "domain_name" : "Vehicles",
-    "dataset_id" : "APL",
-    "dataset_name" : "Airplanes",
-    "dataset_description" : "Airplanes dataset with different aiplane models",
+    "dataset_id" : "APL_STY",
+    "dataset_name" : "Airplanes Stylized",
+    "dataset_description" : "Airplanes dataset with different aiplane models (stylized)",
     "keywords" : "vehicles, airplanes",
     "data_format": "images",
     "image_size": "256x256",
@@ -23,14 +23,14 @@
     "citation" : "APL.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 10205,
+        "num_classes": 400,
+        "num_images": 204100,
         "min_images_per_class": 306,
         "max_images_per_class": 846
     },
@@ -39,8 +39,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46028,
-        "extended" : 46027
+        "mini" : 46026,
+        "extended" : 46025
     },
     "openml_url" : "https://www.openml.org/d/"
 }

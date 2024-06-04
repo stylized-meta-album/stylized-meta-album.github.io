@@ -1,10 +1,10 @@
 {
-    "id" : "LR_AM.DOG",
+    "id" : "LR_AM.DOG_STY",
     "domain_id" : "LR_AM",
     "domain_name" : "Large Aninamls",
-    "dataset_id" : "DOG",
-    "dataset_name" : "Dogs",
-    "dataset_description" : "Dogs dataset with different breeds of dogs",
+    "dataset_id" : "DOG_STY",
+    "dataset_name" : "Dogs Stylized",
+    "dataset_description" : "Dogs dataset with different breeds of dogs (stylized)",
     "keywords" : "dogs, animals",
     "data_format": "images",
     "image_size": "256x256",
@@ -20,14 +20,14 @@
     "citation" : "DOG.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 4244,
+        "num_classes": 400,
+        "num_images": 84880,
         "min_images_per_class": 196,
         "max_images_per_class": 252
     },
@@ -36,8 +36,8 @@
     "contact_email" : "stylized--album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46040,
-        "extended" : 46039
+        "mini" : 46038,
+        "extended" : 46037
     },
     "openml_url" : "https://www.openml.org/d/"
 }

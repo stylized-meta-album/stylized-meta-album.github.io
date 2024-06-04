@@ -1,10 +1,10 @@
 {
-    "id" : "MNF.TEX_DTD",
+    "id" : "MNF.TEX_DTD_STY",
     "domain_id" : "MNF",
     "domain_name" : "Manufacturing",
-    "dataset_id" : "TEX_DTD",
-    "dataset_name" : "Textures-DTD",
-    "dataset_description" : "Textures dataset from Describable Textures Dataset",
+    "dataset_id" : "TEX_DTD_STY",
+    "dataset_name" : "Textures-DTD Stylized",
+    "dataset_description" : "Textures dataset from Describable Textures Dataset (stylized)",
     "keywords" : "textures, manufacturing",
     "data_format": "images",
     "image_size": "256x256",
@@ -20,14 +20,14 @@
     "citation" : "TEX_DTD.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 2400,
+        "num_classes": 400,
+        "num_images": 48000,
         "min_images_per_class": 120,
         "max_images_per_class": 120
     },
@@ -36,8 +36,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46073,
-        "extended" : 46072
+        "mini" : 46071,
+        "extended" : 46070
     },
     "openml_url" : "https://www.openml.org/d/"
 }

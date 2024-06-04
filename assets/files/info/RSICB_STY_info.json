@@ -1,10 +1,10 @@
 {
-    "id" : "REM_SEN.RSICB",
+    "id" : "REM_SEN.RSICB_STY",
     "domain_id" : "REM_SEN",
     "domain_name" : "Remote Sensing",
-    "dataset_id" : "RSICB",
-    "dataset_name" : "RSICB",
-    "dataset_description" : "Remote sensing dataset",
+    "dataset_id" : "RSICB_STY",
+    "dataset_name" : "RSICB Stylized",
+    "dataset_description" : "Remote sensing dataset (stylized)",
     "keywords" : "remote sensing, satellite image, aerial image, land cover",
     "data_format": "images",
     "image_size": "256x256",
@@ -20,14 +20,14 @@
     "citation" : "RSICB.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 18691,
+        "num_classes": 400,
+        "num_images": 373820,
         "min_images_per_class": 553,
         "max_images_per_class": 1331
     },
@@ -36,8 +36,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46065,
-        "extended" : 46064
+        "mini" : 46063,
+        "extended" : 46062
     },
     "openml_url" : "https://www.openml.org/d/"
 }

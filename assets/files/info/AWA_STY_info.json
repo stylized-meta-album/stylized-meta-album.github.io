@@ -1,10 +1,10 @@
 {
-    "id" : "LR_AM.AWA",
+    "id" : "LR_AM.AWA_STY",
     "domain_id" : "LR_AM",
     "domain_name" : "Large Aninamls",
-    "dataset_id" : "AWA",
-    "dataset_name" : "Animals with Attributes",
-    "dataset_description" : "Mamals dataset for image classification",
+    "dataset_id" : "AWA_STY",
+    "dataset_name" : "Animals with Attributes Stylized",
+    "dataset_description" : "Mamals dataset for image classification (stylized)",
     "keywords" : "mammals, animals,",
     "data_format": "images",
     "image_size": "256x256",
@@ -20,14 +20,14 @@
     "citation" : "AWA.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 21891,
+        "num_classes": 400,
+        "num_images": 437820,
         "min_images_per_class": 868,
         "max_images_per_class": 1645
     },
@@ -36,8 +36,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46032,
-        "extended" : 46031
+        "mini" : 46030,
+        "extended" : 46029
     },
     "openml_url" : "https://www.openml.org/d/"
 }

@@ -1,10 +1,10 @@
 {
-    "id" : "PLT_DIS.MED_LF",
+    "id" : "PLT_DIS.MED_LF_STY",
     "domain_id" : "PLT_DIS",
     "domain_name" : "Plant Diseases",
-    "dataset_id" : "MED_LF",
-    "dataset_name" : "Medicinal Leaf",
-    "dataset_description" : "Healthy Medicinal Leaf",
+    "dataset_id" : "MED_LF_STY",
+    "dataset_name" : "Medicinal Leaf Stylized",
+    "dataset_description" : "Healthy Medicinal Leaf (stylized)",
     "keywords" : "medicinal leaf, plants, plant diseases",
     "data_format": "images",
     "image_size": "256x256",
@@ -23,14 +23,14 @@
     "citation" : "MED_LF.bib",
     "stylized-meta-album_author": "Romain Mussard",
     "mini_version" : {
-        "num_classes": 20,
-        "num_images": 800,
+        "num_classes": 400,
+        "num_images": 16000,
         "min_images_per_class": 40,
         "max_images_per_class": 40
     },
     "extended_version" : {
-        "num_classes": 20,
-        "num_images": 1395,
+        "num_classes": 400,
+        "num_images": 27900,
         "min_images_per_class": 56,
         "max_images_per_class": 122
     },
@@ -39,8 +39,8 @@
     "contact_email" : "stylized-meta-album@chalearn.org",
     "contact_url" : "https://stylized-meta-album.github.io/",
     "openml_id" : {
-        "mini" : 46048,
-        "extended" : 46047
+        "mini" : 46046,
+        "extended" : 46045
     },
     "openml_url" : "https://www.openml.org/d/"
 }
