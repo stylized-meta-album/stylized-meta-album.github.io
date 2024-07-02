@@ -51,7 +51,7 @@
             <div class="col-lg-2"></div>
             <div class="table-responsive col-lg-8">
                 <table class="table caption-top">
-                  <caption>Last updated: 04 June 2024</caption>
+                  <caption>Last updated: 02 July 2024</caption>
 
                   <tbody>
                     
@@ -196,7 +196,8 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Download Dataset from OpenML</h3>
+              <h3>Access Dataset from OpenML</h3>
+              <p><code>Note: From OpenML website, you can only download labels file. To download the complete dataset, use openml python api</code></p>
             </div>
           </div>
 
@@ -235,7 +236,7 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Code to download dataset using OpenML API</h3>
+              <h3>Code to download dataset using OpenML Python API</h3>
               <p><a href="https://openml.github.io/openml-python/main/#how-to-get-openml-for-python" target="_blank">Install OpenML for python</a></p>
             </div>
           </div>
@@ -259,7 +260,7 @@
               <p> Datasets are downloaded in openml cache directory. You can check it with this code:</p>
               <pre class="pt-4  bg-light rounded openml_code">
   <span class="code_comment"># display openml cache directory</span>
-  print(openml.config.cache_directory)
+  print(openml.config.get_cache_directory())
               </pre>
             </div>
           </div>
@@ -296,7 +297,7 @@
     year = {2022}
   }
               </pre>
-            <a class="btn btn-outline-dark" target="_blank" href="../assets/files/stylized-meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+            <a class="btn btn-outline-dark" target="_blank" href="../assets/files/stylized-meta-album.bib" download="stylized-meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
           </div>
 
