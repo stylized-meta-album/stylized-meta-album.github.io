@@ -104,7 +104,7 @@
         <div class="section-title">
           <h2>About</h2>
           <p>
-            Stylized Meta-Album (SMA) is a new meta-dataset, consisting of 25 datasets(12 content datasets, 1 style dataset, 12 stylized datasets), designed to enhance studies on out-of-distribution generalization and related topics. 
+            Stylized Meta-Album (SMA) is a new meta-dataset, consisting of 24 datasets(12 content datasets and 12 stylized datasets), designed to enhance studies on out-of-distribution generalization and related topics. 
             SMA is constructed using style transfer techniques from 12 subject classification datasets (content datasets), SMA provides a diverse and extensive set of 4800 groups combining various subjects (objects, plants, animals, human actions, textures) with multiple styles. 
             This scale facilitates rigorous and expansive research that traditional datasets, which offer limited group variability and/or class diversity, cannot support. 
             SMA is a continuously growing meta-dataset. See our datasets in <a href="#datasets"><b><code>Datasets Section</code></b></a>.
@@ -169,7 +169,7 @@
         <div class="section-title">
           <h2>Datasets</h2>
           <p>We list in the tables below the data statistics of the SMA datasets. We chose 12 datasets from Meta-Album (content datasets). We scrapped a style dataset from the internet and we stylized the content datasets with the style dataset to get 12 stylized datasets. 
-            Each instance in these datasets is an image of 256x256 pixel images. Content and Stylized datasets are available in 2 versions: 
+            Each instance in these datasets is an image of 256x256 pixel images. Both Content and Stylized datasets are available in 2 versions: 
           </p>
           <ol>
             <li><strong>Meta-Album Extended:</strong> all classes and all images per class</li>
@@ -372,37 +372,6 @@
           </div>
         </div>
 
-        <!-- Style Dataset -->
-        <div class="row">
-          <div class="col-lg-1"></div>
-          <div class="table-responsive col-lg-10">
-            <table class="table caption-top">
-              <caption class="text-caption alert alert-secondary">
-                Style Dataset
-              </caption>
-
-              <thead>
-                <tr>
-                  <th scope="col">Dataset ID</th>
-                  <th scope="col">Domain</th>
-                  <th scope="col"># Classes</th>
-                  <th scope="col"># Images</th>
-                  <th scope="col">More</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr>
-                  <th scope="row">STY</th>
-                  <td>Style</td>
-                  <td>20</td><td>800</td>
-                  <td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/STY.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
-                </tr>           
-              </tbody>
-            </table>
-          </div>
-        </div>
-
       </div>
     </section><!-- End Datasets Section -->
 
@@ -414,10 +383,9 @@
 
         <div class="section-title">
           <h2>Gallery</h2>
-          <p>Some sample images from Stylized Meta-Album datasets. Each image in Content Images and Stylized
-            Images represents one sample from one dataset</p>
+          <p>Some sample images from Stylized Meta-Album datasets. 
+            Row 1: content images. Row 2: content images stylized by style images. Each image represents a sample from one dataset</p>
           <p><strong>Content Images:</strong> original images from Meta-Album datasets<br>
-            <strong>Style Images:</strong> images from style dataset<br>
             <strong>Stylized Images:</strong> content images stylized by style images
           </p>
         </div>
@@ -425,7 +393,7 @@
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10 col-md-12 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/samples/sample.png"  class="img-fluid">
+            <img src="assets/img/sample.png"  class="img-fluid">
           </div>
         </div>
 
